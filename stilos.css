@@ -1,0 +1,81 @@
+@charset "UTF-8";
+body {
+  background-image: url(https://images2.alphacoders.com/551/551563.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(204, 207, 207, 0.63);
+  margin-top: 15px;
+  padding: 2px;
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container form .usuario {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.container form .contraseña {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.container form input {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+  margin-left: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 5px;
+}
+.container form input:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid blue;
+}
+.container form input::-moz-placeholder {
+  text-align: center;
+}
+.container form input::placeholder {
+  text-align: center;
+}
+.container #login {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 5ms;
+}
+.container #login:hover {
+  transform: scale(1.2);
+}
+.container .fp {
+  align-self: center;
+}
+.container .fp button {
+  background-color: rgba(240, 248, 255, 0);
+  color: rgb(187, 0, 0);
+  border: none;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  transition: 5ms;
+}
+.container .fp button:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=stilos.css.map */
